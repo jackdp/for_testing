@@ -24,7 +24,7 @@ Mandatory arguments to long options are mandatory for short options too.
 Options are **case-sensitive**. Options in square brackets are optional.  
 The last parameter must be the name of an existing directory.
 
-## Available options
+Available options:
 
 **`-r`, `--recurse=X`**  
 Recursively removes empty directories up to level X in the directory structure (default X=500).
