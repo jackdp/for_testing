@@ -26,7 +26,7 @@ The last parameter must be the name of an existing directory.
 
 Available options:
 
-Switch | Description |
+Switch &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Description |
 |:---|:---|
 | `-r`, `--recurse=X` | Recursively removes empty directories up to level X in the directory structure (default X=500). |
 | `-d`, `--remove-main-dir` | It also removes the input directory given on the command line (if empty).
