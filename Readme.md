@@ -30,7 +30,7 @@ Available options:
 
 Switch | Description |
 |:---|:---|
-| <nobr>`-r, --recurse=X`</nobr> | Recursively removes empty directories up to level X in the directory structure (default X=500). |
+| `-r`, `--recurse=X` | Recursively removes empty directories up to level X in the directory structure (default X=500). |
 | `-d`, `--remove-main-dir` | It also removes the input directory given on the command line (if empty).
 | `-k`, `--keep-special-dirs` | By default, the program deletes empty directories with the *Read-only*, *Hidden* and *System* attributes set. If you want to keep such directories, use this option. Available only in the Windows version. |
 | `-h`, `--help` | Show this help. |
