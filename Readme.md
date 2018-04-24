@@ -26,6 +26,25 @@ The last parameter must be the name of an existing directory.
 
 Available options:
 
+**`-r`, `--recurse=X`**  
+Recursively removes empty directories up to level X in the directory structure (default X=500).
+
+**`-d`, `--remove-main-dir`**   
+It also removes the input directory given on the command line (if empty).
+
+**`-k`, `--keep-special-dirs`**  
+By default, the program deletes empty directories with the *Read-only*, *Hidden* and *System* attributes set. If you want to keep such directories, use this option. Available only in the Windows version.
+
+**`-h`, `--help`**  
+Show help.
+
+**`-V`, `--version`**  
+Show application version.
+
+**`--home`**  
+Opens program homepage in the default browser.
+
+
 Switch | Description |
 |:---|:---|
 | `-r`,<br>`--recurse=X` | Recursively removes empty directories up to level X in the directory structure (default X=500). |
@@ -56,7 +75,3 @@ Choose: `Release Win32`, `Release Win64`, `Release Lin32` or `Release Lin64`.
 # Releases
 
 2018.01.19 - Version 1.0
-
-
-
-
