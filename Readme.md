@@ -112,7 +112,7 @@ File saved: FormToolsInfo.lfm
 ```
 </li>
 <li>
-Save form FormMain from the AudioExtractor64.exe file to main form.dfm file:
+Save form FormMain from the `AudioExtractor64.exe` file to `main form.dfm` file:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -n FormMain -o "main form.dfm"`
   
@@ -121,7 +121,7 @@ Result:
 `The form with name/class "FormMain" has been saved to file: main form.dfm`
 </li>
 <li>
-Save form with index 4 from the AudioExtractor64.exe file to a DFM file:
+Save form with index `4` from the AudioExtractor64.exe file to a DFM file:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -idx 4`
   
