@@ -69,12 +69,10 @@ Opens program homepage in the default browser.
 
 # Examples
 
-List all forms in the file AudioExtractor64.exe:
-
-  `DfmExtractor.exe -i AudioExtractor64.exe -l`
-
-Result:
-
+1. List all forms in the file AudioExtractor64.exe:  
+  `DfmExtractor.exe -i AudioExtractor64.exe -l`  
+  Result:  
+    ```
     Forms: 10
     Index |  Lines | Form name        | Form class
     -------------------------------------------------------
@@ -88,7 +86,8 @@ Result:
         7 |    790 | FormOptions      | TFormOptions
         8 |    422 | FormProgress     | TFormProgress
         9 |    169 | FormToolsInfo    | TFormToolsInfo
-
+    ```
+1. sss
 
 # Compilation
 
