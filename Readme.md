@@ -1,6 +1,5 @@
 # DfmExtractor 
 
-<!-- Start Document Outline -->
 * [Overview](#overview)
 * [Download](#download)
 * [Usage](#usage)
@@ -8,7 +7,6 @@
 	* [Information](#information)
 * [Compilation](#compilation)
 * [Changelog / Releases](#changelog--releases)
-<!-- End Document Outline -->
 
 # Overview
 
@@ -69,8 +67,32 @@ Show application version.
 **`--home`**  
 Opens program homepage in the default browser.
 
+# Examples
+
+List all forms in the file AudioExtractor64.exe:
+
+  `DfmExtractor.exe -i AudioExtractor64.exe -l`
+
+Result:
+```
+Forms: 10
+Index |  Lines | Form name        | Form class
+-------------------------------------------------------
+    0 |    451 | CustomizeFrm     | TCustomizeFrm
+    1 |    343 | FormAbout        | TFormAbout
+    2 |     49 | FormCmdLine      | TFormCmdLine
+    3 |    345 | FormErrors       | TFormErrors
+    4 |  1 621 | FormFileInfo     | TFormFileInfo
+    5 |    474 | FormListFileEdit | TFormListFileEdit
+    6 |  6 035 | FormMain         | TFormMain
+    7 |    790 | FormOptions      | TFormOptions
+    8 |    422 | FormProgress     | TFormProgress
+    9 |    169 | FormToolsInfo    | TFormToolsInfo
+```
 
 # Compilation
+
+> Tested on CodeTyphon 6.40 with FPC 3.1.1 and Laraus 1.9.0 (trunk version) with FPC 3.1.1
 
 To compile, you need:
 1. [CodeTyphon](http://pilotlogic.com/sitejoom/) or [Lazarus](https://www.lazarus-ide.org/).
@@ -97,3 +119,9 @@ Choose: `Release Win32` or `Debug Win32`.
 
 **Version 1.0** (2018.01.11)  
 Initial release.
+
+# Note
+
+This program was made for my private use, but it may also be useful to someone.
+
+When translating one program written in Delphi, I needed DFM forms to make it easier to work with the [Poedit](https://github.com/vslavik/poedit) program, so I decided to write a small program to extract DFMs.
