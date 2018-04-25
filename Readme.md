@@ -70,7 +70,7 @@ Opens program homepage in the default browser.
 # Examples
 <ol>
 <li>
-List all forms in the file AudioExtractor64.exe:
+List all forms in the file <i>AudioExtractor64.exe</i>:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -l`
   
@@ -93,7 +93,7 @@ Index |  Lines | Form name        | Form class
 </li>
 
 <li>
-Save all forms from the AudioExtractor64.exe file to files with the LFM extension:
+Save all forms from the <i>AudioExtractor64.exe</i> file to files with the LFM extension:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -a -e lfm`
   
@@ -112,7 +112,7 @@ File saved: FormToolsInfo.lfm
 ```
 </li>
 <li>
-Save form FormMain from the <b>AudioExtractor64.exe</b> file to <code>main form.dfm</code> file:
+Save form FormMain from the <i>AudioExtractor64.exe</i> file to <code><b>main form.dfm</b></code> file:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -n FormMain -o "main form.dfm"`
   
@@ -121,7 +121,7 @@ Result:
 `The form with name/class "FormMain" has been saved to file: main form.dfm`
 </li>
 <li>
-Save form with index <code>4</code> from the AudioExtractor64.exe file to a DFM file:
+Save form with index <code><b>4</b></code> from the <i>AudioExtractor64.exe</i> file to a DFM file:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -idx 4`
   
