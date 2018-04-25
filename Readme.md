@@ -69,11 +69,12 @@ Opens program homepage in the default browser.
 
 # Examples
 <ol>
-<li>List all forms in the file AudioExtractor64.exe:
+<li>
+List all forms in the file AudioExtractor64.exe:
 
   `DfmExtractor.exe -i AudioExtractor64.exe -l`
   
-  Result:  
+Result:  
 ```
 Forms: 10
 Index |  Lines | Form name        | Form class
@@ -90,9 +91,27 @@ Index |  Lines | Form name        | Form class
     9 |    169 | FormToolsInfo    | TFormToolsInfo
 ```
 </li>
+
 <li>
-hdfg dfh
+Save all forms from the `AudioExtractor64.exe` file to files with the LFM extension:
+
+  `DfmExtractor.exe -i AudioExtractor64.exe -a -e lfm`
+  
+Result:
+```
+File saved: CustomizeFrm.lfm
+File saved: FormAbout.lfm
+File saved: FormCmdLine.lfm
+File saved: FormErrors.lfm
+File saved: FormFileInfo.lfm
+File saved: FormListFileEdit.lfm
+File saved: FormMain.lfm
+File saved: FormOptions.lfm
+File saved: FormProgress.lfm
+File saved: FormToolsInfo.lfm
+```
 </li>
+
 </ol>
 
 # Compilation
