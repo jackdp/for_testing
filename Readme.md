@@ -74,7 +74,7 @@ List all forms in the file AudioExtractor64.exe:
   `DfmExtractor.exe -i AudioExtractor64.exe -l`
 
 Result:
-<pre>
+
     Forms: 10
     Index |  Lines | Form name        | Form class
     -------------------------------------------------------
@@ -88,7 +88,7 @@ Result:
         7 |    790 | FormOptions      | TFormOptions
         8 |    422 | FormProgress     | TFormProgress
         9 |    169 | FormToolsInfo    | TFormToolsInfo
-</pre>
+
 
 # Compilation
 
