@@ -68,26 +68,32 @@ Show application version.
 Opens program homepage in the default browser.
 
 # Examples
+<ol>
+<li>List all forms in the file AudioExtractor64.exe:
 
-1. List all forms in the file AudioExtractor64.exe:  
-  `DfmExtractor.exe -i AudioExtractor64.exe -l`  
+  `DfmExtractor.exe -i AudioExtractor64.exe -l`
+  
   Result:  
-    ```
-    Forms: 10
-    Index |  Lines | Form name        | Form class
-    -------------------------------------------------------
-        0 |    451 | CustomizeFrm     | TCustomizeFrm
-        1 |    343 | FormAbout        | TFormAbout
-        2 |     49 | FormCmdLine      | TFormCmdLine
-        3 |    345 | FormErrors       | TFormErrors
-        4 |  1 621 | FormFileInfo     | TFormFileInfo
-        5 |    474 | FormListFileEdit | TFormListFileEdit
-        6 |  6 035 | FormMain         | TFormMain
-        7 |    790 | FormOptions      | TFormOptions
-        8 |    422 | FormProgress     | TFormProgress
-        9 |    169 | FormToolsInfo    | TFormToolsInfo
-    ```
-1. sss
+```
+Forms: 10
+Index |  Lines | Form name        | Form class
+-------------------------------------------------------
+    0 |    451 | CustomizeFrm     | TCustomizeFrm
+    1 |    343 | FormAbout        | TFormAbout
+    2 |     49 | FormCmdLine      | TFormCmdLine
+    3 |    345 | FormErrors       | TFormErrors
+    4 |  1 621 | FormFileInfo     | TFormFileInfo
+    5 |    474 | FormListFileEdit | TFormListFileEdit
+    6 |  6 035 | FormMain         | TFormMain
+    7 |    790 | FormOptions      | TFormOptions
+    8 |    422 | FormProgress     | TFormProgress
+    9 |    169 | FormToolsInfo    | TFormToolsInfo
+```
+</li>
+<li>
+hdfg dfh
+</li>
+</ol>
 
 # Compilation
 
