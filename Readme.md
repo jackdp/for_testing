@@ -16,13 +16,21 @@ I am no expert on writing VCL components and helped myself by analyzing the sour
 ### TJppPanel
 
 A panel with several improvements. It was written on the basis of one of the panels included in the Cindy Components package (but I do not remember exactly which one).  
+
+<p align="center">
+<img src="JppPanel.png">
+</p>
+
 Additional properties: 
 1. Upper and bottom part filled with a gradient (or solid color).  
 The panel is divided into two parts - upper and lower. For each of them you can define colors separately. The size of the upper part (relative to the lower) can also be modified (property `Appearance.UpperGradientPercent`). For example, you can set the upper gradient size to 30%, then the bottom will automatically take up the rest of the panel surface (70%). You can also completely eliminate the bottom gradient by setting the `UpperGradientPercent` property to 100%.  
 If you need to fill the upper part with a gradient and the bottom one with a solid color, set the desired gradient colors of the upper part, then set the same starting and ending color of the gradient in the lower part.  
 If you do not want to use a gradient, you can easily turn it off by setting the `Appearance.DrawGradient` property to `False`, then the `Appearance.BackgroundColor` color will be used to fill the panel background with a solid color.
+
 1. Borders.  
-You can set the thickness, color, style and visibility of the panel borders. Each border is configured separately. For example, you can set the thickness of the upper edge to 10 pt, the lower one - 2 pt, and hide the left one completely.
+You can set the thickness, color, style and visibility of the panel borders. Each border is configured separately. For example, you can set the upper edge with a pen width = 10 in red, the lower edge in green and a pen width = 2, and hide the left and right edges completely.
+
+1. Unlimited collections of horizontal lines, vertical lines, captions and horizontal bars. 
 
 
 
