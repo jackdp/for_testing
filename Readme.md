@@ -1,4 +1,4 @@
-# JPPack 
+# JPPack - A small collection of VCL components for Delphi
 
 <p align="center">
 <img src="JPPack.png">
@@ -6,7 +6,7 @@
 
 ## Overview
 
-JPPack is a small collection of Delphi VCL components.
+**JPPack** is a small collection of VCL components for Delphi.
 
 These components were created within a few years, they were repeatedly modified, improved, and expanded with the functions needed in the implementation of specific projects. Generally, there is a small chaos, but I think everything works OK (I hope!).
 
@@ -83,6 +83,25 @@ JppPngButton.LoadColorMapFromIniFile(
 In the folder with the `TJppPngButton Color Maps Designer` program you will find all my color schemes stored in INI files, as well as files with the `*.colors` extension. These are color palettes that you can view and edit in my (not yet completed but fully functioning) [Colors](http://www.pazera-software.com/products/colors/) program.
 
 `TJppPngButton Color Maps Designer` can also be treated as a demonstration program of one of my other components: `TJppColorComboBox`.
+
+#### PNG icons
+
+After **long and fierce battles** with various buttons from different packages of components for Delphi (commercial and free), I finally found one that displays the PNG files correctly, including those with the *Alpha* channel - **TPngBitBtn**. I have never had problems with it, unlike many, many others. For this reason, I decided to base my button on it.
+
+Processing of PNG files/images is implemented mainly by 4 units:
+- Vcl.Imaging.pngimage (included in Delphi, based on [Gustavo Daud's work](http://pngdelphi.sourceforge.net)).
+- **PngFunctions**, **PngButtonFunctions** and **PngImageList** from the [PngComponents](https://bitbucket.org/uweraabe/pngcomponents) package.  
+
+The original author of the *PngComponents* package is Martijn Saly. The project is currently maintained by [Uwe Raabe](http://www.uweraabe.de/Blog/). Sources are available at https://bitbucket.org/uweraabe/pngcomponents
+
+`TJppPngButton` uses all of the units listed above. However, I did not want to force potential users to install the full *PngComponents* package (although I recommend doing it), that's why I extracted only those three files from the *PngComponents* project that were necessary for the proper functioning of my button.
+To prevent any name conflicts, I added the prefix `PNGC.` to the name of each file (and unit). If you prefer to use these 
+
+In the folder [PngComponents_Docs_License](PngComponents_Docs_License) you can find *PngComponents* package license, changelog and documentation.
+
+### TJppBasicSpeedButton
+
+This button is very similar to `TJppPngButton`, but it is based on `TGraphicControl`, so it does not take the focus (it has no *focused* state). Color schemes support is not implemented yet.
 
 
 ## Installation
