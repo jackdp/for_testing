@@ -1,11 +1,3 @@
----
-title: JPPack Documentation
----
-
-[JPPack](https://github.com/jackdp/JPPack) / [Docs](./index.md) / Overview
-
----
-
 ## Overview
 
 **JPPack** is a small collection of VCL components for Delphi.  
