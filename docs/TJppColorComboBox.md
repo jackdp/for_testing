@@ -1,7 +1,3 @@
-[JPPack](../) / [Docs](./index.md) / Components / **TJppPanel**
-
----
-
 # TJppColorComboBox
 
 A ComboBox displaying a list of user-defined colors.

@@ -1,7 +1,3 @@
-[JPPack](../) / [Docs](./index.md) / Components / **TJppPanel**
-
----
-
 # TJppPanel
 
 A highly customizable panel. `TCustomPanel` descendant.  
