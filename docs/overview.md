@@ -1,4 +1,6 @@
-# JPPack
+---
+title: JPPack Documentation
+---
 
 [JPPack](https://github.com/jackdp/JPPack) / [Docs](./index.md) / Overview
 
