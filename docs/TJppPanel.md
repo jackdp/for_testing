@@ -8,7 +8,7 @@ A highly customizable panel. `TCustomPanel` descendant.
 It was written on the basis of one of the panels included in the *Cindy Components* package (but I do not remember exactly which one).  
 
 <p align="center">
-<img src="JppPanel.png">
+<img src="img/JppPanel.png">
 </p>
 
 ## Upper and lower part
