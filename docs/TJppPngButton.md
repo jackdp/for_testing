@@ -1,9 +1,9 @@
 # TJppPngButton
 
-`TJppPngButton` is a extended `TPngBitBtn` button from the **PngComponents** package.  
+`TJppPngButton` is an extended `TPngBitBtn` button from the **PngComponents** package.  
 
 <p align="center">
-<img src="img/JppPngButtons.png">
+<img src="./img/TJppPngButtons.png">
 </p>
 
 The button can be in one of **five states**: *normal*, *hot*, *down* (pressed), *focused* and *disabled*. For each state you can set a whole range of display parameters: upper and bottom gradient/solid color (similarly to `TJppPanel`), border color, style and width, font parameters (color, name, size, style). You can also turn off drawing border and/or background (`Appearance.<STATE>.TransparentFrame` / `Appearance.<STATE>.TransparentBackground`).
@@ -13,6 +13,7 @@ If you do not want to display the **focus rectangle** on the active button, set 
 If you want the button to be displayed in system colors, set property `Appearance.DefaultDrawing` to `True` (all custom colors defined in the `Appearance.<STATES>` will then be ignored).
 
 ## TJppPngButton - Color maps (Color schemes)
+
 
 The number of all colors for all button states is really big, so I decided to make it easier to manage the displayed colors using ready-to-use color schemes (color maps).
 
@@ -24,7 +25,7 @@ Over half of the color schemes I have prepared are schemes that mimic the **VCL 
 All color schemes I have prepared in the `TJppPngButton Color Maps Designer` program, which is located in the repository in the `demos` directory.
 
 <p align="center">
-<img src="img/JppPngButton_ColorMapsDesigner.png">
+<img src="./img/TJppPngButton_ColorMapsDesigner.png">
 </p>
 
 This program allows you to quickly create new and modify existing color schemes for TJppPngButton. All color changes are visible immediately (on the left side). You can also freely change the background color of the panel with the test buttons in the *Background color* combo box.

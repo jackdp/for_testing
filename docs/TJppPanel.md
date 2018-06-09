@@ -4,7 +4,7 @@ A highly customizable panel. `TCustomPanel` descendant.
 It was written on the basis of one of the panels included in the *Cindy Components* package (but I do not remember exactly which one).  
 
 <p align="center">
-<img src="img/JppPanel.png">
+<img src="./img/TJppPanel.png">
 </p>
 
 ## Upper and lower part
@@ -17,7 +17,7 @@ If you do not want to use a gradient at all, you can easily turn it off by setti
 
 ## Borders
 
-You can set the thickness, color, style and visibility of the panel borders. Each border is configured separately. For example, you can set the upper border with a pen width = 10 in red, the lower border in green and a pen width = 2, and hide the left and right borders completely. If you do not want to display borders at all, set `Appearance.DrawBorder` to `False` and `BevelOuter` to `bvNone`. You have a full control.
+You can set the thickness, color, style and visibility of the panel borders. Each border is configured separately. For example, you can set the upper border with a pen width = 10 in red, the lower border in green and a pen width = 2, and hide the left and right borders completely. If you do not want to display borders at all, set `Appearance.DrawBorder` to `False` and make sure that `BevelOuter` property is set to `bvNone`. You have a full control.
 
 ## Lines, captions, bars
 
