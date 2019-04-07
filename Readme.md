@@ -63,7 +63,7 @@ All panel borders are configured separately. You can set different color, thickn
 
 The panel has a built-in support for the unlimited collection of captions. Each caption has its own property `Font: TFont`, and can be centered or positioned relative to the corners of the panel.
 
-Moreover, the TJppPanel has a built-in support for the unlimited collection of horizontal lines, vertical lines and horizontal bars.
+Moreover, the `TJppPanel` has a built-in support for the unlimited collection of horizontal lines, vertical lines and horizontal bars.
 
 [More info...](./docs/TJppPanel.md)
 
